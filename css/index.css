@@ -1,0 +1,14 @@
+:root {
+  --orange: #ffba09;
+  --dark-blue: #2e4d5e;
+  --grey: #c4c4c4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.space {
+  height: 500px;
+}
