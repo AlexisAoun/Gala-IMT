@@ -7,8 +7,18 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
-.space {
-  height: 500px;
+#topSection {
+  width: 100%;
+  height: 100vh;
+  overflow: none;
 }
+
+#homeGif {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
