@@ -1,0 +1,25 @@
+:root {
+  --orange: #ffba09;
+  --dark-blue: #2e4d5e;
+  --grey: #c4c4c4;
+}
+
+.navbar {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top: 2%;
+  background-color: var(--dark-blue);
+  border: solid 3px var(--orange);
+  border-radius: 40px;
+}
+
+.navbar li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
