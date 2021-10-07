@@ -24,6 +24,7 @@ class PageFooter extends HTMLElement {
     ).getPropertyValue('--orange');
 
     // logo du footer - A MODIFIER QUAND ON AURA LE VRAI LOGO
+
     const logo = document.createElement('div');
     logo.classList.add('footer-logo');
     const logoText = document.createElement('p');
@@ -34,12 +35,14 @@ class PageFooter extends HTMLElement {
     logoText.style.zIndex = 3;
     logoText.style.position = 'relative';
     logo.appendChild(logoText);
+    logo.style.flex = 2;
 
     // container des social medias
     const socialMedia = document.createElement('div');
     socialMedia.classList.add('footer-social-media');
     socialMedia.style.height = '100%';
     socialMedia.style.display = 'flex';
+    socialMedia.style.flex = 1.5;
     socialMedia.style.flexDirection = 'column';
     socialMedia.style.alignItems = 'center';
     socialMedia.style.justifyContent = 'center';
@@ -79,12 +82,15 @@ class PageFooter extends HTMLElement {
     socialMedia.appendChild(socialMediaText);
     socialMedia.appendChild(socialMediaIcons);
 
+    // General info about the Gala
+
     const info = document.createElement('div');
     info.style.textAlign = 'center';
     info.style.display = 'flex';
     info.style.flexDirection = 'column';
     info.style.alignItems = 'center';
     info.style.height = '100%';
+    info.style.flex = 1.5;
     info.style.justifyContent = 'space-around';
 
     const infoText1 = document.createElement('div');
@@ -114,11 +120,15 @@ class PageFooter extends HTMLElement {
     infoText2.appendChild(p3);
     infoText2.appendChild(p4);
 
+    // div for the sponsors
+
     const sponsors = document.createElement('div');
     sponsors.classList.add('footer-sponsors');
     const sponsorsText = document.createElement('p');
     sponsorsText.textContent = 'Sponsors';
     sponsors.appendChild(sponsorsText);
+    sponsors.style.flex = 1.5;
+    sponsors.style.textAlign = 'center';
 
     const footerStyle = document.createElement('style');
 
@@ -127,11 +137,11 @@ class PageFooter extends HTMLElement {
       'content : "";' +
       'position : absolute;' +
       'background : var(--dark-blue);' +
-      'height : 250%;' +
-      'width : 35%;' +
-      'transform : rotate(40deg);' +
-      'left : -95px;' +
-      'top : 0px;' +
+      'height : 300%;' +
+      'width : 300%;' +
+      'transform : rotate(50deg);' +
+      'left : -150%;' +
+      'top : -10%;' +
       'z-index:2;' +
       '}' +
       '.social-media-logo {' +
@@ -140,11 +150,11 @@ class PageFooter extends HTMLElement {
       '.info-p {' +
       'margin : 0;' +
       shadow.appendChild(footerStyle);
-    shadow.appendChild(container);
-    container.appendChild(logo);
-    container.appendChild(socialMedia);
-    container.appendChild(info);
-    container.appendChild(sponsors);
+      shadow.appendChild(container);
+      container.appendChild(logo);
+      container.appendChild(socialMedia);
+      container.appendChild(info);
+      container.appendChild(sponsors);
   }
 }
 
