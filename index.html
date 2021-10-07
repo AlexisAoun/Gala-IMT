@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <meta name="keywords" content="GALA, IMT">
-    <meta name="description" content="The IMT Nord Europe 2022 Gala's web site">
-    <script  src="./js/footer.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+     <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="keywords" content="GALA, IMT" />
+    <meta
+      name="description"
+      content="The IMT Nord Europe 2022 Gala's web site"
+    />
+    <script src="./js/footer.js" defer></script>
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/common.js" defer></script>
     <title>GALA IMT 2022</title>
-</head>
-<body>
-    <div class="space"></div>
+  </head>
+  <body>
+    <div id="topSection">
+      <img src="assets/anim_accueil.gif" alt="Home animation" id="homeGif"/>
+      <a href="#bottomSection">
+        <img src="assets/fleche_defile.png" alt="Down arrow" id="downArrow"/>
+      </a>
+    </div>
+    <div id="bottomSection">
+      <navbar-home></navbar-home>
+      <div class="menu">
+        <div class="carteTop">
+          <a href="html/programme.html">
+            <img src="assets/cartes_accueil/programme_carte.png" alt="Menu programme" 
+            id="programme" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+          </a>
+        </div>
+        <div class="carteBottom">
+          <a href="html/billeterie.html">
+            <img src="assets/cartes_accueil/billeterie_carte.png" alt="Menu billeterie" 
+            id="billeterie" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+          </a>
+        </div>
+        <div class="carteTop">
+          <a href="html/logistique.html">
+            <img src="assets/cartes_accueil/logistique_carte.png" alt="Menu logistique" 
+            id="logistique" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+          </a>
+        </div>
+        <div class="carteBottom">
+          <a href="html/sponsors.html">
+            <img src="assets/cartes_accueil/sponsors_carte.png" alt="Menu sponsors" id="sponsors"
+            onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+          </a>
+        </div>
+        <div class="carteTop">
+          <a href="html/don.html">
+            <img src="assets/cartes_accueil/faites_un_don_carte.png" alt="Menu faites un don" 
+            id="don" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+          </a>
+        </div>
+      </div>
+    </div>
     <page-footer></page-footer>
-</body>
+  </body>
 </html>
