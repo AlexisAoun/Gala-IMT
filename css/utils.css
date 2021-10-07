@@ -78,12 +78,14 @@ body {
   transform: rotate(50deg);
   z-index: 0;
 }
+
 .footer-social-media {
   width: 20%;
 }
 
 .footer-social-media p {
   text-align: center;
+  font-size: clamp(0.8em, 1.1vw, 100000px);
 }
 
 .logoReseaux {
@@ -93,7 +95,7 @@ body {
 }
 
 .logoReseaux i {
-  font-size: clamp(1.7vw, 1.5em, 100000px);
+  font-size: clamp(1.5em, 1.5vw, 100000px);
   color: black;
 }
 
@@ -116,6 +118,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-size: clamp(0.8em, 1.1vw, 100000px);
 }
 
 .footer-sponsors {
