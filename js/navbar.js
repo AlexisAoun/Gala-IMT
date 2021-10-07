@@ -51,7 +51,7 @@ class NavbarHome extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-    <div class="icon-burger" id="icon-burger">
+    <div class="icon-burger" id="icon-burger" onclick="mobileMenuClick();">
       <div class="line"></div>
       <div class="line"></div>
       <div class="line"></div>
