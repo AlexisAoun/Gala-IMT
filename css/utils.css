@@ -8,7 +8,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: montserrat, arial;
 }
+
+/* style pour la barre de navigation */
 
 .navbar {
   position: absolute;
@@ -48,8 +51,83 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+/* style pour le pied de page */
+
+.footer-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--orange);
+}
+
+.footer-logo {
+  width: 20%;
+  z-index: 1;
+}
+
+.bloc {
+  position: absolute;
+  left:-45%;
+  width: 100%;
+  height: 200px;
+  background-color: var(--dark-blue);
+  transform: rotate(50deg);
+  z-index: 0;
+}
+
+.footer-social-media {
+  width: 20%;
+}
+
+.footer-social-media p {
+  text-align: center;
+  font-size: clamp(0.8em, 1.1vw, 100000px);
+}
+
+.logoReseaux {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.logoReseaux i {
+  font-size: clamp(1.5em, 1.5vw, 100000px);
+  color: black;
+}
+
+.footer-info {
+  width: 20%;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: clamp(0.8em, 1.1vw, 100000px);
+}
+
+.footer-sponsors {
+  width: 20%;
+}
+
 @media screen and (max-width: 800px){
 
+  /* style mobile pour la barre de navigation */
   .navbar {
     position: absolute;
     top: 0;
@@ -79,5 +157,30 @@ body {
     right: 10px;
     top: 10px;
     z-index: 11;
+  }
+
+  /* style mobile pour le pied de page  */
+  .bloc {
+    display: none;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-logo {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .footer-social-media {
+    width: 90%;
+    margin: 5% 0 5% 0;
+  }
+
+  .footer-info {
+    width: 90%;
+    margin-left: 5%;
+    margin: 5% 0 5% 0;
   }
 }
