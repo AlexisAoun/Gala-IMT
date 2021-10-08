@@ -38,6 +38,7 @@ body {
 
 #bottomSection {
   position: relative;
+  overflow-x: hidden;
   width: 100%;
   height: 85vh;
   background: url("../assets/fond_site/image_fond_1_accueil.png") no-repeat center; 
@@ -85,7 +86,7 @@ body {
  
   #homeGif {
     width: 100%;
-    margin: 50% 0 0 0;
+    margin: 40% 0 0 0;
   }
 
   #bottomSection {
