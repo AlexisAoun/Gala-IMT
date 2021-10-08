@@ -57,7 +57,7 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  height: 120px;
+  height: auto;
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
@@ -71,9 +71,9 @@ body {
 
 .bloc {
   position: absolute;
-  left:-45%;
+  left:-50%;
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: var(--dark-blue);
   transform: rotate(50deg);
   z-index: 0;
@@ -101,6 +101,7 @@ body {
 
 .footer-info {
   width: 20%;
+  margin: 1% 0 1% 0;
 }
 
 .text1 {
@@ -118,14 +119,14 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: clamp(0.8em, 1.1vw, 100000px);
+  font-size: clamp(0.8em, 0.8vw, 100000px);
 }
 
 .footer-sponsors {
   width: 20%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
 
   /* style mobile pour la barre de navigation */
   .navbar {
