@@ -103,8 +103,8 @@ var burgerLines = burgerButton.childNodes;
 
 var menuPanel = document.getElementById("navbar");
 
-function mobileMenuClick () {
-  if(!menuIsVisible){
+function mobileMenuClick() {
+  if (!menuIsVisible) {
     menuPanel.style.transition = "ease-out 1s";
     menuPanel.style.transform = "translateX(-100%)";
     openBurgerAnimation();
@@ -117,14 +117,14 @@ function mobileMenuClick () {
   }
 }
 
-function openBurgerAnimation () {
+function openBurgerAnimation() {
   burgerLines[1].style.transform = "translateY(10px) rotate(225deg)";
   burgerLines[5].style.transform = "translateY(-10px) rotate(-225deg)";
-  burgerLines[3].style.opacity =  0;
+  burgerLines[3].style.opacity = 0;
 }
 
-function closeBurgerAnimation () {
-  burgerLines[1].style.transform =  "";
-  burgerLines[5].style.transform =  "";
-  burgerLines[3].style.opacity =  100;
+function closeBurgerAnimation() {
+  burgerLines[1].style.transform = "";
+  burgerLines[5].style.transform = "";
+  burgerLines[3].style.opacity = 100;
 }

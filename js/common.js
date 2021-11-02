@@ -2,29 +2,29 @@
 
 //change the carte image on mouse hover
 function changeImage(element) {
-  if(element.id == "programme") {
-     element.src = "assets/cartes_accueil/programme_carte_bleue.png";
+  if (element.id == "programme") {
+    element.src = "assets/cartes_accueil/programme_carte_bleue.png";
   } else if (element.id == "billeterie") {
-     element.src = "assets/cartes_accueil/billeterie_carte_bleue.png";
+    element.src = "assets/cartes_accueil/billeterie_carte_bleue.png";
   } else if (element.id == "logistique") {
-     element.src = "assets/cartes_accueil/logistique_carte_bleue.png";
+    element.src = "assets/cartes_accueil/logistique_carte_bleue.png";
   } else if (element.id == "sponsors") {
-     element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
+    element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
   } else if (element.id == "don") {
-     element.src = "assets/cartes_accueil/faites_un_don_carte_bleue.png";
+    element.src = "assets/cartes_accueil/faites_un_don_carte_bleue.png";
   }
 }
 
 function resetImage(element) {
-  if(element.id == "programme") {
-     element.src = "assets/cartes_accueil/programme_carte.png";
+  if (element.id == "programme") {
+    element.src = "assets/cartes_accueil/programme_carte.png";
   } else if (element.id == "billeterie") {
-     element.src = "assets/cartes_accueil/billeterie_carte.png";
+    element.src = "assets/cartes_accueil/billeterie_carte.png";
   } else if (element.id == "logistique") {
-     element.src = "assets/cartes_accueil/logistique_carte.png";
+    element.src = "assets/cartes_accueil/logistique_carte.png";
   } else if (element.id == "sponsors") {
-     element.src = "assets/cartes_accueil/sponsors_carte.png";
+    element.src = "assets/cartes_accueil/sponsors_carte.png";
   } else if (element.id == "don") {
-     element.src = "assets/cartes_accueil/faites_un_don_carte.png";
+    element.src = "assets/cartes_accueil/faites_un_don_carte.png";
   }
 }

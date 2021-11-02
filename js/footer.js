@@ -36,9 +36,8 @@ class PageFooter extends HTMLElement {
       </div>
     </div>
       `;
-
   }
 }
 
 // Define the new element
-customElements.define('page-footer', PageFooter);
+customElements.define("page-footer", PageFooter);
