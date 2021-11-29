@@ -82,6 +82,19 @@ body {
   height: auto
 }
 
+.carteTop:hover {
+  overflow: hidden;
+  width: 16%;
+  height: auto;
+  margin: 0 3% 0 3%;
+}
+
+.carteBottom:hover {
+  overflow: hidden;
+  width: 16%;
+  height: auto;
+  margin: 10% 3% 0 3%;
+}
 @media screen and (max-width: 850px) {
  
   #homeGif {

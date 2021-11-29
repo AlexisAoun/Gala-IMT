@@ -36,7 +36,7 @@ class Navbar extends HTMLElement {
           </a>
         </li>
         <li>
-          <a href="./don.html">
+          <a href="./notre-equipe.html">
             Dons
           </a>
         </li>
@@ -84,7 +84,7 @@ class NavbarHome extends HTMLElement {
           </a>
         </li>
         <li>
-          <a href="html/don.html">
+          <a href="html/notre-equipe.html">
             Dons
           </a>
         </li>
