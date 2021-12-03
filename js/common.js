@@ -2,6 +2,8 @@
 
 //change the carte image on mouse hover
 function changeImage(element) {
+  carte = (element.parentNode).parentNode;
+  carte.style.width = "19%";
   if (element.id == "programme") {
     element.src = "assets/cartes_accueil/programme_carte_bleue.png";
   } else if (element.id == "billeterie") {
@@ -16,6 +18,8 @@ function changeImage(element) {
 }
 
 function resetImage(element) {
+  carte = (element.parentNode).parentNode;
+  carte.style.width = "17%";
   if (element.id == "programme") {
     element.src = "assets/cartes_accueil/programme_carte.png";
   } else if (element.id == "billeterie") {
