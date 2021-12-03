@@ -11,7 +11,7 @@ function changeImage(element) {
   } else if (element.id == "sponsors") {
     element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
   } else if (element.id == "don") {
-    element.src = "assets/cartes_accueil/faites_un_don_carte_bleue.png";
+    element.src = "assets/cartes_accueil/notreequipe_carte_bleue.png";
   }
 }
 
@@ -25,6 +25,6 @@ function resetImage(element) {
   } else if (element.id == "sponsors") {
     element.src = "assets/cartes_accueil/sponsors_carte.png";
   } else if (element.id == "don") {
-    element.src = "assets/cartes_accueil/faites_un_don_carte.png";
+    element.src = "assets/cartes_accueil/notreequipe_carte.png";
   }
 }
