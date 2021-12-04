@@ -47,54 +47,7 @@ class Navbar extends HTMLElement {
   }
 }
 
-class NavbarHome extends HTMLElement {
-  constructor() {
-    super();
-    this.innerHTML = `
-    <div class="icon-burger" id="icon-burger" onclick="mobileMenuClick();">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div> 
-    <div class="navbar" id="navbar">
-      <ul>
-        <li>
-          <a href="#">
-            Accueil
-          </a>
-        </li>
-        <li>
-          <a href="html/programme.html">
-            Programme
-          </a>
-        </li>
-        <li>
-          <a href="html/billeterie.html">
-            Billeterie
-          </a>
-        </li>
-        <li>
-          <a href="html/logistique.html">
-            Logistique
-          </a>
-        </li>
-        <li>
-          <a href="html/sponsors.html">
-            Sponsors
-          </a>
-        </li>
-        <li>
-          <a href="html/notre-equipe.html">
-            Dons
-          </a>
-        </li>
-      </ul>
-    </div>                                     
-      `;
-  }
-}
 customElements.define("navbar-menu", Navbar);
-customElements.define("navbar-home", NavbarHome);
 
 var menuIsVisible = false;
 
