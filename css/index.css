@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  overflow-x: hidden;
 }
 
 #topSection {
@@ -25,6 +26,7 @@ body {
   width: 70%;
   height: auto;
   margin-left: 15%;
+  overflow: hidden;
 }
 
 #downArrow {
@@ -85,8 +87,8 @@ body {
 @media screen and (max-width: 850px) {
  
   #homeGif {
-    width: 100%;
-    margin: 40% 0 0 0;
+    width: 90%;
+    margin: 50% 0 0 5%;
   }
 
   #bottomSection {

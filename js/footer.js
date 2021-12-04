@@ -1,17 +1,12 @@
-/**
- * @description Create the Page Footer element
- * @name page-footer
- * @author Romain Guarinoni
- */
 class PageFooter extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
     <div class="footer-container">
       <div class="footer-logo">
-        <p>Logo</p>
+        <img src="../assets/logos/simple_logo.png">
       </div>
-      <div class="bloc"></div>
+      <div class="blocLeft"></div>
       <div class="footer-social-media">
         <p>Suivez nous sur les réseaux sociaux!</p> 
         <div class="logoReseaux">
@@ -31,8 +26,9 @@ class PageFooter extends HTMLElement {
           <p>Au Casinode Saint-Amand-Les-Eaux</p>
         </div>
       </div>
+      <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <p>Sponsors</p>
+        <img src="../assets/logos/edf_white.webp">
       </div>
     </div>
       `;
