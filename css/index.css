@@ -4,6 +4,12 @@
   --grey: #c4c4c4;
 }
 
+#preload-01 { background: url(../assets/cartes_accueil/sponsors_carte_bleue.png) no-repeat -9999px -9999px; }
+#preload-02 { background: url(../assets/cartes_accueil/billeterie_carte_bleue.png) no-repeat -9999px -9999px; }
+#preload-03 { background: url(../assets/cartes_accueil/programme_carte_bleue.png) no-repeat -9999px -9999px; }
+#preload-04 { background: url(../assets/cartes_accueil/logistique_carte_bleue.png) no-repeat -9999px -9999px; }
+#preload-05 { background: url(../assets/cartes_accueil/notreequipe_carte_bleue.png) no-repeat -9999px -9999px; }
+
 html {
   scroll-behavior: smooth;
 }
