@@ -4,7 +4,7 @@ class PageFooter extends HTMLElement {
     this.innerHTML = `
     <div class="footer-container">
       <div class="footer-logo">
-        <img src="../assets/logos/simple_logo.png">
+        <img src="assets/logos/simple_logo.png">
       </div>
       <div class="blocLeft"></div>
       <div class="footer-social-media">
@@ -28,7 +28,7 @@ class PageFooter extends HTMLElement {
       </div>
       <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <img src="../assets/logos/edf_white.webp">
+        <img src="assets/logos/edf_white.webp">
       </div>
     </div>
       `;
