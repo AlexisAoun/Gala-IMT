@@ -15,7 +15,7 @@ function checkIfMobile(mediaQuery) {
 function changeImage(element) {
   if (!mobile) {
     carte = (element.parentNode).parentNode;
-    carte.style.width = "19%";
+    carte.style.transform = "scale(1.1)";
   }
   if (element.id == "programme") {
     element.src = "assets/cartes_accueil/programme_carte_bleue.png";
@@ -33,7 +33,7 @@ function changeImage(element) {
 function resetImage(element) {
   if (!mobile) {
     carte = (element.parentNode).parentNode;
-    carte.style.width = "17%";
+    carte.style.transform = "scale(1)";
   }
   if (element.id == "programme") {
     element.src = "assets/cartes_accueil/programme_carte.png";
