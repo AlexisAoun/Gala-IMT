@@ -17,5 +17,5 @@ production:
     name: Site Gala
     url: https://gala.etu.imt-lille-douai.fr/
   only:
-    - main
+    - master
   allow_failure: true
