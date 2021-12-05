@@ -1,5 +1,5 @@
 .mainContainer {
-  height: 85vh;
+  height: auto;
   background: url("../assets/fond_site/image_fond_2_programme.png") no-repeat  center;
   background-size: cover;
 
@@ -23,6 +23,7 @@
   justify-content: space-around;
   margin-left: 10%;
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .menu {
@@ -36,7 +37,6 @@
 .carts img {
   width: 100%;
   height: auto;
-  aspect-ratio: 0.86;
 }
 
 @media screen and (max-width: 850px) {
