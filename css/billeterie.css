@@ -5,3 +5,36 @@
   background-size: cover;
   background-position: center;
 }
+
+.title {
+  width: 20%;
+  margin-left: 40%;
+  padding-top: 3%;
+}
+
+.title img {
+  width: 100%;
+  height: auto;
+}
+
+.coming-soon {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.coming-soon img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px){
+  .title {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .coming-soon {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
