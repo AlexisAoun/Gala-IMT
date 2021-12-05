@@ -1,0 +1,135 @@
+.mainContainer {
+  height: auto;
+  padding-bottom: 2%;
+  background: url("../assets/fond_site/image_fond_5_sponsor.png") no-repeat;
+  background-size: cover;
+}
+
+.title {
+  width: 20%;
+  margin-left: 40%;
+  padding-top: 3%;
+}
+
+.title img {
+  width: 100%;
+  height: auto;
+}
+
+.sponsorsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  background-color: var(--dark-blue);
+  opacity: 0.9;
+  border: hidden 5px;
+  border-radius: 100px;
+}
+
+.sponsor1 {
+  display: flex;
+  padding: 5%;
+  justify-content: space-around;
+}
+
+.sponsor2 {
+  display: flex;
+  padding: 5%;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 45%;
+}
+
+.logo img {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  text-align: center;
+  font-size: clamp(12px, 1vw, 1000000px);
+}
+
+.becomeSponsor {
+  display: flex;
+  width: 78%;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
+  margin: 5% 0 0 10%;
+  border: hidden;
+  border-radius: 100px;
+  padding: 1%;
+}
+
+.becomeSponsor button {
+  background-color: var(--dark-blue);
+  color: whitesmoke;
+  padding: 1%;
+  border: hidden;
+  border-radius: 15px;
+  font-size: clamp(15px, 1vw, 10000px);
+}
+
+@media screen and (max-width: 850px){
+  .title{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .sponsorsContainer {
+    border-radius: 50px;
+  }
+
+  .sponsor1 {
+    flex-direction: column;
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+  }
+
+  .sponsor2 {
+    flex-direction: column-reverse;
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .becomeSponsor {
+    border-radius: 20px;
+    flex-direction: column;
+  }
+
+  .becomeSponsor h1 {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .becomeSponsor button {
+    width: 50%;
+    margin: 5% 0 5% 25%;
+    padding: 3%;
+  }
+}
+
+

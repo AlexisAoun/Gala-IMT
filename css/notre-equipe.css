@@ -1,0 +1,11 @@
+.container {
+  background-color: #020927;
+  height: auto;
+}
+
+.container img {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+}
+
