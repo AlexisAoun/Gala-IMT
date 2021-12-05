@@ -1,0 +1,50 @@
+.mainContainer {
+  height: 85vh;
+  background: url("../assets/fond_site/image_fond_2_programme.png") no-repeat  center;
+  background-size: cover;
+
+}
+
+.carts {
+  display: flex;
+  width: 80%;
+  overflow: hidden;
+  justify-content: space-around;
+  margin-left: 10%;
+  padding-top: 8%;
+}
+
+.menu {
+  width: 19%;
+}
+
+.show {
+  width: 20%;
+}
+
+.carts img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px) {
+
+  .mainContainer{
+    height: auto;
+  }
+
+  .carts {
+    flex-direction: column;
+  }
+
+  .menu {
+    width: 99%;
+    margin-bottom: 5%;
+  }
+  
+  .show {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+}
