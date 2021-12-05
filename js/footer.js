@@ -10,10 +10,10 @@ class PageFooter extends HTMLElement {
       <div class="footer-social-media">
         <p>Suivez nous sur les réseaux sociaux!</p> 
         <div class="logoReseaux">
-          <a href="#"><i class="fa fa-facebook-square"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.facebook.com/gala.imtnordeurope" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/gala_imtnordeurope/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/gala-imt-nord-europe/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
       </div>
       <div class="footer-info">
@@ -47,10 +47,10 @@ class PageFooterHome extends HTMLElement {
       <div class="footer-social-media">
         <p>Suivez nous sur les réseaux sociaux!</p> 
         <div class="logoReseaux">
-          <a href="#"><i class="fa fa-facebook-square"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.facebook.com/gala.imtnordeurope" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/gala_imtnordeurope/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/gala-imt-nord-europe/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
       </div>
       <div class="footer-info">
