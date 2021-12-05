@@ -22,7 +22,7 @@ class Navbar extends HTMLElement {
         </li>
         <li>
           <a href="./billeterie.html">
-            Billeterie
+            Billetterie
           </a>
         </li>
         <li>
