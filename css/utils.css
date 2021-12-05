@@ -11,6 +11,11 @@ body {
   font-family: montserrat, arial;
 }
 
+#content {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* style pour la barre de navigation */
 
 .navbar {
@@ -27,6 +32,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin: 1%;
 }
 
 .navbar li {
@@ -36,6 +42,11 @@ body {
 .navbar a {
   text-decoration: none;
   color: white;
+  font-size:clamp(15px, 0.8vw, 10000px);
+}
+
+.navbar a:hover {
+  font-weight: 700;
 }
 
 .icon-burger {
@@ -151,15 +162,16 @@ body {
 
   /* style mobile pour la barre de navigation */
   .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 100%;
+    left: 0;
     right: 0;
     border:none 0px; 
     border-radius: 0;
-    width: 100%;
+    width: 0%;
     height: 100vh;
     z-index: 10;
+    overflow: hidden;
   }
   
   .navbar ul {
@@ -175,7 +187,7 @@ body {
 
   .icon-burger {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 10px;
     top: 10px;
     z-index: 11;

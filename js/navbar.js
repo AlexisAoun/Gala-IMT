@@ -37,7 +37,7 @@ class Navbar extends HTMLElement {
         </li>
         <li>
           <a href="./notre-equipe.html">
-            Dons
+            Notre équipe
           </a>
         </li>
       </ul>
@@ -59,12 +59,12 @@ var menuPanel = document.getElementById("navbar");
 function mobileMenuClick() {
   if (!menuIsVisible) {
     menuPanel.style.transition = "ease-out 1s";
-    menuPanel.style.transform = "translateX(-100%)";
+    menuPanel.style.width = "100%";
     openBurgerAnimation();
     menuIsVisible = true;
   } else {
     menuPanel.style.transition = "ease-in 1s";
-    menuPanel.style.transform = "translateX(100%)";
+    menuPanel.style.width = "0";
     closeBurgerAnimation();
     menuIsVisible = false;
   }
