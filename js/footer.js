@@ -23,7 +23,7 @@ class PageFooter extends HTMLElement {
         </div>
         <div class="text2">
           <p>Rendez-vous le 05 Février 2022</p>
-          <p>Au Casino de Saint-Amand-Les-Eaux</p>
+          <p>Au Pasino de Saint-Amand-Les-Eaux</p>
         </div>
       </div>
       <div class="blocRight"></div>
@@ -60,7 +60,7 @@ class PageFooterHome extends HTMLElement {
         </div>
         <div class="text2">
           <p>Rendez-vous le 05 Février 2022</p>
-          <p>Au Casino de Saint-Amand-Les-Eaux</p>
+          <p>Au Pasino de Saint-Amand-Les-Eaux</p>
         </div>
       </div>
       <div class="blocRight"></div>
