@@ -78,6 +78,7 @@
   background-color: var(--dark-blue);
   color: whitesmoke;
   width: 10%;
+  padding: 1%;
   border: hidden;
   border-radius: 15px;
   font-size: clamp(15px, 1vw, 10000px);
