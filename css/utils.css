@@ -77,9 +77,14 @@ body {
 
 .footer-logo {
   position: absolute;
-  width: 20%;
-  left: 3%;
+  width: 5%;
+  left: 2%;
   z-index: 1;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
 }
 
 .blocLeft {
