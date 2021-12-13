@@ -28,7 +28,8 @@ class PageFooter extends HTMLElement {
       </div>
       <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <img src="../assets/logos/edf_white.webp">
+        <img class="top" src="../assets/logos/logo_alumni.png">
+        <img class="bottom" src="../assets/logos/edf_white.webp">
       </div>
     </div>
       `;
@@ -65,7 +66,8 @@ class PageFooterHome extends HTMLElement {
       </div>
       <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <img src="assets/logos/edf_white.webp">
+        <img class="top" src="../assets/logos/logo_alumni.png">
+        <img class="bottom" src="../assets/logos/edf_white.webp">
       </div>
     </div>
       `;
