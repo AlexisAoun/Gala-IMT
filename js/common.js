@@ -2,7 +2,10 @@
 
 let mediaQuery = window.matchMedia("(max-width: 850px)")
 let mobile = false;
-let detailsToggle = false;
+let detailsToggleDouai = false;
+let detailsToggleLille = false;
+let detailsToggleValenciennes = false;
+let detailsToggleAlencon = false;
 
 function checkIfMobile(mediaQuery) {
   if (mediaQuery.matches) {
@@ -65,21 +68,42 @@ function showDetails(element) {
   let details = null;
   if (element.id == "douai"){
     details = document.getElementById("douaiDetails");
+    if (detailsToggleDouai) {
+      details.style.display = "none";
+      detailsToggleDouai = false;
+    } else {
+      detailsToggleDouai = true;
+      details.style.display = "flex";
+    }
   } else if (element.id == "lille"){
     details = document.getElementById("lilleDetails");
+    if (detailsToggleLille) {
+      details.style.display = "none";
+      detailsToggleLille = false;
+    } else {
+      detailsToggleLille = true;
+      details.style.display = "flex";
+    }
   } else if (element.id == "alencon"){
     details = document.getElementById("alenconDetails");
+    if (detailsToggleAlencon) {
+      details.style.display = "none";
+      detailsToggleAlencon = false;
+    } else {
+      detailsToggleAlencon = true;
+      details.style.display = "flex";
+    }
   } else if (element.id == "valenciennes"){
     details = document.getElementById("valenciennesDetails");
-  }
-
-  if (detailsToggle) {
-    details.style.display = "none";
-    detailsToggle = false;
-  } else {
-    details.style.display = "flex";
-    detailsToggle = true;
+    if (detailsToggleValenciennes) {
+      details.style.display = "none";
+      detailsToggleValenciennes = false;
+    } else {
+      detailsToggleValenciennes = true;
+      details.style.display = "flex";
+    }
   }
 }
+
 checkIfMobile(mediaQuery) // Call listener function at run time
 mediaQuery.addListener(checkIfMobile) // Attach listener function on state changes 
