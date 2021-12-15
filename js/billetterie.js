@@ -1,5 +1,3 @@
-// code for the home page
-
 let mediaQuery = window.matchMedia("(max-width: 850px)")
 let mobile = false;
 
@@ -17,17 +15,7 @@ function changeImage(element) {
     carte = (element.parentNode).parentNode;
     carte.style.transform = "scale(1.1)";
   }
-  if (element.id == "programme") {
-    element.src = "assets/cartes_accueil/programme_carte_bleue.png";
-  } else if (element.id == "billeterie") {
-    element.src = "assets/cartes_accueil/billeterie_carte_bleue.png";
-  } else if (element.id == "logistique") {
-    element.src = "assets/cartes_accueil/logistique_carte_bleue.png";
-  } else if (element.id == "sponsors") {
-    element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
-  } else if (element.id == "don") {
-    element.src = "assets/cartes_accueil/notreequipe_carte_bleue.png";
-  } else if (element.id == "soiree") {
+  if (element.id == "soiree") {
     element.src = "../assets/billetterie/billet_soiree_grossi.png";
   } else if (element.id == "classique") {
     element.src = "../assets/billetterie/billet_classique_grossi.png";
@@ -41,17 +29,7 @@ function resetImage(element) {
     carte = (element.parentNode).parentNode;
     carte.style.transform = "scale(1)";
   }
-  if (element.id == "programme") {
-    element.src = "assets/cartes_accueil/programme_carte.png";
-  } else if (element.id == "billeterie") {
-    element.src = "assets/cartes_accueil/billeterie_carte.png";
-  } else if (element.id == "logistique") {
-    element.src = "assets/cartes_accueil/logistique_carte.png";
-  } else if (element.id == "sponsors") {
-    element.src = "assets/cartes_accueil/sponsors_carte.png";
-  } else if (element.id == "don") {
-    element.src = "assets/cartes_accueil/notreequipe_carte.png";
-  } else if (element.id == "soiree") {
+  if (element.id == "soiree") {
     element.src = "../assets/billetterie/billet_soiree.png";
   } else if (element.id == "classique") {
     element.src = "../assets/billetterie/billet_classique.png";
