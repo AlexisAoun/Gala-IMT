@@ -19,48 +19,28 @@
 .sponsorsContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 80%;
   margin-left: 10%;
-  background-color: var(--dark-blue);
-  opacity: 0.9;
+  background-color: white;
   border: hidden 5px;
   border-radius: 100px;
 }
 
-.sponsor1 {
-  display: flex;
-  padding: 5%;
-  justify-content: space-around;
-}
-
-.sponsor2 {
-  display: flex;
-  padding: 5%;
-  justify-content: space-around;
-}
-
-.logo {
-  width: 45%;
-}
-
-.logo img {
-  width: 50%;
-  height: auto;
-  margin-left: 25%;
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-  color: whitesmoke;
-  justify-content: center;
-  align-items: center;
-}
-
-.description p {
+.sponsorsContainer p {
+  font-size: clamp(2em, 3vw, 1000000px);
   text-align: center;
-  font-size: clamp(12px, 1vw, 1000000px);
+}
+
+
+.sponsor {
+  width: 30%;
+  margin: 3% 0 3% 0;
+}
+
+.sponsor img {
+  width: 100%;
+  height: auto;
 }
 
 .becomeSponsor {
@@ -91,29 +71,12 @@
   }
 
   .sponsorsContainer {
-    border-radius: 50px;
+    border-radius: 30px;
   }
 
-  .sponsor1 {
-    flex-direction: column;
+  .sponsor {
     width: 80%;
-    padding: 5%;
-    margin: auto;
-  }
-
-  .sponsor2 {
-    flex-direction: column-reverse;
-    width: 80%;
-    padding: 5%;
-    margin: auto;
-  }
-
-  .description {
-    width: 100%;
-  }
-
-  .logo {
-    width: 100%;
+    margin: 10% 0 10% 0;
   }
 
   .becomeSponsor {
