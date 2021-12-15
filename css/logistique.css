@@ -38,12 +38,12 @@
 }
 
 .description h3 {
-  font-size:clamp(1.3em, 1.3vw, 10000px);
+  font-size:clamp(1.5em, 1.3vw, 10000px);
 }
 
 .description p {
   margin: 0;
-  font-size:clamp(1em, 0.9vw, 10000px);
+  font-size:clamp(1.2em, 0.9vw, 10000px);
 }
 
 .description .soon {
@@ -51,6 +51,12 @@
 }
 
 .bus {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+
+.busA {
   width: 60%;
   margin-left: 20%;
   margin-top: 1%;
@@ -64,11 +70,13 @@
   padding: 0.3%;
   border: solid 3px;
   border-color: var(--orange);
+  font-size:clamp(0.8em, 1vw, 10000px);
 }
+
 
 .details {
   position: relative;
-  display: flex; 
+  display: none; 
   width: 100%;
   justify-content: space-evenly;
   background-color:whitesmoke; 
@@ -77,6 +85,10 @@
   margin-top: 1%;
   border-color: var(--orange);
   font-size:clamp(1em, 0.9vw, 10000px);
+}
+
+#alencon .details {
+  padding-bottom: 3%;
 }
 
 .dest{
@@ -94,14 +106,14 @@
   color: var(--orange);
 }
 
-.details .contact {
+#alencon .details .contact {
   position: absolute;
-  bottom: 0;
+  bottom: 1%;
   margin: 0;
 }
 
 .dunkerque-container {
-  padding-bottom: 1%;
+  padding-bottom: 3%;
 }
 
 .dunkerque {
@@ -125,4 +137,47 @@
     margin-left: 10%;
   }
 
+  .where {
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .img-container{
+    width: 100%;
+  }
+  
+  .description {
+    width: 100%;
+  }
+
+  .bus {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  
+  .details {
+    flex-direction: column;
+  }
+
+  #alencon .details {
+    padding-bottom: 20%;
+  }
+
+  #alencon .details .contact{
+    text-align: center;
+  }
+
+  .horraire {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .dest {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
 }

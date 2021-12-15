@@ -2,6 +2,7 @@
 
 let mediaQuery = window.matchMedia("(max-width: 850px)")
 let mobile = false;
+let detailsToggle = false;
 
 function checkIfMobile(mediaQuery) {
   if (mediaQuery.matches) {
@@ -60,5 +61,25 @@ function resetImage(element) {
   }
 }
 
+function showDetails(element) {
+  let details = null;
+  if (element.id == "douai"){
+    details = document.getElementById("douaiDetails");
+  } else if (element.id == "lille"){
+    details = document.getElementById("lilleDetails");
+  } else if (element.id == "alencon"){
+    details = document.getElementById("alenconDetails");
+  } else if (element.id == "valenciennes"){
+    details = document.getElementById("valenciennesDetails");
+  }
+
+  if (detailsToggle) {
+    details.style.display = "none";
+    detailsToggle = false;
+  } else {
+    details.style.display = "flex";
+    detailsToggle = true;
+  }
+}
 checkIfMobile(mediaQuery) // Call listener function at run time
 mediaQuery.addListener(checkIfMobile) // Attach listener function on state changes 
