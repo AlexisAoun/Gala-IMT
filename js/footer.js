@@ -28,8 +28,13 @@ class PageFooter extends HTMLElement {
       </div>
       <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <img class="top" src="../assets/logos/logo_alumni.png">
-        <img class="bottom" src="../assets/logos/edf_white.webp">
+        <a href="sponsors.html" target="_blank">
+          <img class="s1" src="../assets/logos/logo_alumni.png">
+          <img class="s2" src="../assets/logos/edf.jpg">
+          <img class="s3" src="../assets/logos/mrod.png">
+          <img class="s4" src="../assets/logos/ergo.png">
+          <img class="s5" src="../assets/logos/urbania.jpg">
+        </a>
       </div>
     </div>
       `;
@@ -66,8 +71,13 @@ class PageFooterHome extends HTMLElement {
       </div>
       <div class="blocRight"></div>
       <div class="footer-sponsors">
-        <img class="top" src="./assets/logos/logo_alumni.png">
-        <img class="bottom" src="./assets/logos/edf_white.webp">
+        <a href="html/sponsors.html" target="_blank">
+          <img class="s1" src="./assets/logos/logo_alumni.png">
+          <img class="s2" src="./assets/logos/edf.jpg">
+          <img class="s3" src="./assets/logos/mrod.png">
+          <img class="s4" src="./assets/logos/ergo.png">
+          <img class="s5" src="./assets/logos/urbania.jpg">
+        </a>
       </div>
     </div>
       `;
