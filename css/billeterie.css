@@ -25,6 +25,7 @@ h3 {
   color: whitesmoke;
   font-size: clamp(1em, 1vw, 100000px);
 }
+
 .billet-container {
   display: flex;
   justify-content: space-between;
@@ -48,8 +49,15 @@ h3 {
     margin-left: 10%;
   }
 
-  .coming-soon {
-    width: 80%;
-    margin-left: 10%;
+  .billet-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin:0;
+  }
+
+  .billet {
+    width: 70%;
+    margin-top: 5%;
   }
 }
