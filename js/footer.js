@@ -73,7 +73,7 @@ class PageFooterHome extends HTMLElement {
       <div class="footer-sponsors">
         <a href="html/sponsors.html" target="_blank">
           <img class="s1" src="./assets/logos/logo_alumni.png">
-          <img class="s2" src="../assets/logos/edf.png">
+          <img class="s2" src="./assets/logos/edf.png">
           <img class="s3" src="./assets/logos/mrod.png">
           <img class="s4" src="./assets/logos/ergo.png">
           <img class="s5" src="./assets/logos/urbania.jpg">
