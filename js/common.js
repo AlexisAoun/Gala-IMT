@@ -109,7 +109,9 @@ function showDetails(element) {
 
 function closeBtnPopup(){
 	container = document.getElementById("popup-container");
-	container.style.display = "none"
+	body = document.body;
+	container.style.display = "none";
+	body.style.overflow = "visible";
 }
 
 checkIfMobile(mediaQuery) // Call listener function at run time
