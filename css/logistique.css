@@ -2,7 +2,7 @@
   background-image: url("../assets/fond_site/image_fond_4_log.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
 }
 
 .title {
