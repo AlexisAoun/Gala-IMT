@@ -64,6 +64,8 @@ function resetImage(element) {
   }
 }
 
+//for the love of god i should refactor this
+//why do i always begin 48hrs before deadlines
 function showDetails(element) {
   let details = null;
   if (element.id == "douai"){
@@ -103,6 +105,11 @@ function showDetails(element) {
       details.style.display = "flex";
     }
   }
+}
+
+function closeBtnPopup(){
+	container = document.getElementById("popup-container");
+	container.style.display = "none"
 }
 
 checkIfMobile(mediaQuery) // Call listener function at run time

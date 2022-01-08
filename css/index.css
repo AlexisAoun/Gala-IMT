@@ -15,6 +15,37 @@ body {
   overflow-x: hidden;
 }
 
+#popup-container {
+	position: absolute;
+	width: 100%;	
+	height: 100vh;
+	z-index: 100;
+}
+
+.popup {
+	position: relative;
+	width: 35%;
+	margin: auto;
+	margin-top: 20%;
+	background-color: whitesmoke;
+	padding: 3%;
+	border: solid 8px var(--orange);
+	border-radius: 4px;
+}
+
+.popup p {
+	text-align: center;
+	font-size: clamp(0.8em, 1vw, 10000px);
+}
+
+#close-btn {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: clamp(1em, 1.5vw, 10000px);
+	cursor: pointer;
+}
+
 #topSection {
   position: relative;
   width: 100%;
@@ -82,6 +113,10 @@ body {
 
 @media screen and (max-width: 850px) {
  
+	.popup {
+		width: 80%;
+		margin-top: 50%;
+	}
   #homeGif {
     width: 90%;
     margin: 50% 0 0 5%;

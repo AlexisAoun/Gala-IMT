@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel=icon href="assets/logos/simple_logo.png">
+    <link rel="icon" href="assets/logos/simple_logo.png" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/utils.css" />
-     <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
     />
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <meta name="keywords" content="GALA, IMT" />
     <meta
@@ -26,42 +26,80 @@
     <title>GALA IMT 2022</title>
   </head>
   <body>
+    <div id="popup-container" style="background: rgba(0, 0, 0, 0.8)">
+      <div class="popup">
+        <p>
+          En vue de la situation sanitaire, nous avons malheureusement pris la
+          décision d’annuler ou de reporter le Gala qui devait se tenir le 5
+          février 2022. Nous reviendrons vers vous dans un bref délai concernant
+          le remboursement total des billets déjà achetés. <br />
+          Bonne année et surtout bonne santé.
+        </p>
+
+        <div id="close-btn" onclick="closeBtnPopup();">X</div>
+      </div>
+    </div>
     <div id="topSection">
-      <img src="assets/anim_accueil.gif" alt="Home animation" id="homeGif"/>
+      <img src="assets/anim_accueil.gif" alt="Home animation" id="homeGif" />
       <a href="#bottomSection">
-        <img src="assets/fleche_defile.png" alt="Down arrow" id="downArrow"/>
+        <img src="assets/fleche_defile.png" alt="Down arrow" id="downArrow" />
       </a>
     </div>
     <div id="bottomSection">
       <div class="menu">
         <div class="carteTop">
           <a href="html/programme.html">
-            <img src="assets/cartes_accueil/programme_carte.png" alt="Menu programme" 
-            id="programme" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+            <img
+              src="assets/cartes_accueil/programme_carte.png"
+              alt="Menu programme"
+              id="programme"
+              onmouseover="changeImage(this);"
+              onmouseout="resetImage(this);"
+            />
           </a>
         </div>
         <div class="carteBottom">
           <a href="html/billeterie.html">
-            <img src="assets/cartes_accueil/billeterie_carte.png" alt="Menu billeterie" 
-            id="billeterie" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+            <img
+              src="assets/cartes_accueil/billeterie_carte.png"
+              alt="Menu billeterie"
+              id="billeterie"
+              onmouseover="changeImage(this);"
+              onmouseout="resetImage(this);"
+            />
           </a>
         </div>
         <div class="carteTop">
           <a href="html/logistique.html">
-            <img src="assets/cartes_accueil/logistique_carte.png" alt="Menu logistique" 
-            id="logistique" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+            <img
+              src="assets/cartes_accueil/logistique_carte.png"
+              alt="Menu logistique"
+              id="logistique"
+              onmouseover="changeImage(this);"
+              onmouseout="resetImage(this);"
+            />
           </a>
         </div>
         <div class="carteBottom">
           <a href="html/sponsors.html">
-            <img src="assets/cartes_accueil/sponsors_carte.png" alt="Menu sponsors" id="sponsors"
-            onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+            <img
+              src="assets/cartes_accueil/sponsors_carte.png"
+              alt="Menu sponsors"
+              id="sponsors"
+              onmouseover="changeImage(this);"
+              onmouseout="resetImage(this);"
+            />
           </a>
         </div>
         <div class="carteTop">
           <a href="html/notre-equipe.html">
-            <img src="assets/cartes_accueil/notreequipe_carte.png" alt="Menu faites un don" 
-            id="don" onmouseover="changeImage(this);" onmouseout="resetImage(this);"/>
+            <img
+              src="assets/cartes_accueil/notreequipe_carte.png"
+              alt="Menu faites un don"
+              id="don"
+              onmouseover="changeImage(this);"
+              onmouseout="resetImage(this);"
+            />
           </a>
         </div>
       </div>
