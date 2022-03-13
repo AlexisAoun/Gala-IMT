@@ -22,8 +22,8 @@ class PageFooter extends HTMLElement {
           <p>IMT Nord Europe</p>
         </div>
         <div class="text2">
-          <p>Rendez-vous le 05 Février 2022</p>
-          <p>Au Pasino de Saint-Amand-Les-Eaux</p>
+          <p>Rendez-vous le 21 mai 2022</p>
+          <p>À Lille Grand Palais !</p>
         </div>
       </div>
       <div class="blocRight"></div>
@@ -65,8 +65,8 @@ class PageFooterHome extends HTMLElement {
           <p>IMT Nord Europe</p>
         </div>
         <div class="text2">
-          <p>Rendez-vous le 05 Février 2022</p>
-          <p>Au Pasino de Saint-Amand-Les-Eaux</p>
+          <p>Rendez-vous le 21 mai 2022</p>
+          <p>À Lille Grand Palais !</p>
         </div>
       </div>
       <div class="blocRight"></div>
