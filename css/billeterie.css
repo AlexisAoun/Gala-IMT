@@ -1,12 +1,19 @@
-#preload-01 { background: url(../assets/billetterie/billet_VIP_grossi.png) no-repeat -9999px -9999px; }
-#preload-01 { background: url(../assets/billetterie/billet_soiree_grossi.png) no-repeat -9999px -9999px; }
-#preload-01 { background: url(../assets/billetterie/billet_classique_grossi.png) no-repeat -9999px -9999px; }
+#preload-01 {
+  background: url(../assets/billetterie/billet_VIP_grossi.png) no-repeat -9999px -9999px;
+}
+#preload-01 {
+  background: url(../assets/billetterie/billet_soiree_grossi.png) no-repeat -9999px -9999px;
+}
+#preload-01 {
+  background: url(../assets/billetterie/billet_classique_grossi.png) no-repeat -9999px -9999px;
+}
 
 .mainContent {
   background-image: url("../assets/fond_site/image_fond_3_billeterie.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 90vh;
 }
 
 .title {
@@ -28,7 +35,7 @@ h3 {
 
 .billet-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 60%;
   margin: 1% 0 0 20%;
   padding-bottom: 3%;
@@ -38,12 +45,26 @@ h3 {
   width: 25%;
 }
 
-.billet img{
+.billet img {
   width: 100%;
   height: auto;
 }
 
-@media screen and (max-width: 850px){
+.logistiqueInfoContainer {
+  padding-bottom: 3%;
+}
+
+.logistiqueInfo {
+  width: 80%;
+  margin: 5% 0 0 10%;
+  background-color: whitesmoke;
+  border: solid 3px;
+  border-color: var(--orange);
+  padding: 1%;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
   .title {
     width: 80%;
     margin-left: 10%;
@@ -53,7 +74,7 @@ h3 {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin:0;
+    margin: 0;
   }
 
   .billet {

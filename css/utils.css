@@ -16,17 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Message qui indique que la page va etre mise a jour */
-
-.underChange {
-  margin: 0;
-  padding: 0;
-  color: white;
-  padding-top: 5%;
-  width: 100%;
-  text-align: center;
-  font-size: large;
-}
 /* style pour la barre de navigation */
 
 .navbar {

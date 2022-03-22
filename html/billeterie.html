@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel=icon href="../assets/logos/simple_logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../assets/logos/simple_logo.png" />
     <link rel="stylesheet" href="../css/utils.css" />
     <link rel="stylesheet" href="../css/billeterie.css" />
-     <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
     />
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
@@ -26,36 +26,46 @@
   <body>
     <navbar-menu></navbar-menu>
     <div class="mainContent">
-      <div class="underChange">
-        <h1>
-          Cette page sera bientôt mise à jour avec les dernières informations !
-        </h1>
-      </div>
       <div class="title">
-        <img src="../assets/titres/titre_billeterie.png" alt="Titre">
+        <img src="../assets/titres/titre_billeterie.png" alt="Titre" />
       </div>
-      <h3>Ouvert jusqu'au 8 janvier 2022</h3>
+      <h3>
+        La billeterie ouvrira le 26 mars 2022 <br />
+        Plus d'informations dans l'onglet Programme
+      </h3>
       <div class="billet-container">
         <div class="billet">
-          <a href="https://collecte.io/test-billeterie-1106856/fr" target="_blank">
-            <img id="soiree" src="../assets/billetterie/billet_soiree.png" alt="billet soiree"
-            onmouseover="changeImage(this);" onmouseout="resetImage(this);">
+          <a href="#" target="_blank">
+            <img
+              id="soiree"
+              src="../assets/billetterie/billet_soiree.png"
+              alt="billet soiree"
+              onmouseover="//changeImage(this);"
+              onmouseout="//resetImage(this);"
+            />
           </a>
         </div>
         <div class="billet">
-          <a href="https://collecte.io/test-billeterie-1106856/fr" target="_blank">
-            <img id="classique" src="../assets/billetterie/billet_classique.png" alt="billet classique"
-            onmouseover="changeImage(this);" onmouseout="resetImage(this);">
+          <a href="#" target="_blank">
+            <img
+              id="classique"
+              src="../assets/billetterie/billet_VIP.png"
+              alt="billet classique"
+              onmouseover="//changeImage(this);"
+              onmouseout="//resetImage(this);"
+            />
           </a>
         </div>
-        <div class="billet">
-          <a href="https://collecte.io/test-billeterie-1106856/fr" target="_blank">
-            <img id="vip" src="../assets/billetterie/billet_VIP.png" alt="billet VIP"
-            onmouseover="changeImage(this);" onmouseout="resetImage(this);">
-          </a>
+      </div>
+      <div class="logistiqueInfoContainer">
+        <div class="logistiqueInfo">
+          <p>
+            Les informations concernant le transport et l'hébergement se
+            trouvent dans l'onglet logistique
+          </p>
         </div>
       </div>
     </div>
-    <page-footer></page-footer>  
+    <page-footer></page-footer>
   </body>
 </html>

@@ -31,12 +31,13 @@ function changeImage(element) {
     element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
   } else if (element.id == "don") {
     element.src = "assets/cartes_accueil/notreequipe_carte_bleue.png";
-  } else if (element.id == "soiree") {
-    element.src = "../assets/billetterie/billet_soiree_grossi.png";
-  } else if (element.id == "classique") {
-    element.src = "../assets/billetterie/billet_classique_grossi.png";
-  } else if (element.id == "vip") {
-    element.src = "../assets/billetterie/billet_VIP_grossi.png";
+  // } else if (element.id == "soiree") {
+  //   element.src = "../assets/billetterie/billet_soiree_grossi.png";
+  // } else if (element.id == "classique") {
+  //   element.src = "../assets/billetterie/billet_classique_grossi.png";
+  // } else if (element.id == "vip") {
+  //   element.src = "../assets/billetterie/billet_VIP_grossi.png";
+  // }
   }
 }
 
@@ -55,12 +56,13 @@ function resetImage(element) {
     element.src = "assets/cartes_accueil/sponsors_carte.png";
   } else if (element.id == "don") {
     element.src = "assets/cartes_accueil/notreequipe_carte.png";
-  } else if (element.id == "soiree") {
-    element.src = "../assets/billetterie/billet_soiree.png";
-  } else if (element.id == "classique") {
-    element.src = "../assets/billetterie/billet_classique.png";
-  } else if (element.id == "vip") {
-    element.src = "../assets/billetterie/billet_VIP.png";
+  // } else if (element.id == "soiree") {
+  //   element.src = "../assets/billetterie/billet_soiree.png";
+  // } else if (element.id == "classique") {
+  //   element.src = "../assets/billetterie/billet_classique.png";
+  // } else if (element.id == "vip") {
+  //   element.src = "../assets/billetterie/billet_VIP.png";
+  // }
   }
 }
 
