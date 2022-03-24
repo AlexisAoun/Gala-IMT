@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed;
+  min-height: 90vh;
 }
 
 .title {

@@ -70,22 +70,13 @@ function resetImage(element) {
 //why do i always begin 48hrs before deadlines
 function showDetails(element) {
   let details = null;
-  if (element.id == "douai"){
-    details = document.getElementById("douaiDetails");
+  if (element.id == "paris"){
+    details = document.getElementById("parisDetails");
     if (detailsToggleDouai) {
       details.style.display = "none";
       detailsToggleDouai = false;
     } else {
       detailsToggleDouai = true;
-      details.style.display = "flex";
-    }
-  } else if (element.id == "lille"){
-    details = document.getElementById("lilleDetails");
-    if (detailsToggleLille) {
-      details.style.display = "none";
-      detailsToggleLille = false;
-    } else {
-      detailsToggleLille = true;
       details.style.display = "flex";
     }
   } else if (element.id == "alencon"){
