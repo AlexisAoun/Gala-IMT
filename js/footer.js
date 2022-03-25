@@ -34,6 +34,7 @@ class PageFooter extends HTMLElement {
           <img class="s3" src="../assets/logos/mrod.png">
           <img class="s4" src="../assets/logos/ergo.png">
           <img class="s5" src="../assets/logos/urbania.jpg">
+          <img class="s6" src="../assets/logos/lydia.png">
         </a>
       </div>
     </div>
@@ -77,6 +78,7 @@ class PageFooterHome extends HTMLElement {
           <img class="s3" src="./assets/logos/mrod.png">
           <img class="s4" src="./assets/logos/ergo.png">
           <img class="s5" src="./assets/logos/urbania.jpg">
+          <img class="s6" src="./assets/logos/lydia.png">
         </a>
       </div>
     </div>

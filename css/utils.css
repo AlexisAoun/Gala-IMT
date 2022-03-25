@@ -202,17 +202,28 @@ body {
   margin-top: 5%;
 }
 
+.s6 {
+  animation-name: fade6;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  margin-top: 5%;
+}
+
 @keyframes fade1 {
   0% {
     opacity: 1;
   }
-  25% {
+  20% {
     opacity: 0;
   }
-  50% {
+  40% {
     opacity: 0;
   }
-  75% {
+  60% {
+    opacity: 0;
+  }
+  80% {
     opacity: 0;
   }
   100% {
@@ -224,13 +235,16 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
+  20% {
     opacity: 1;
   }
-  50% {
+  40% {
     opacity: 0;
   }
-  75% {
+  60% {
+    opacity: 0;
+  }
+  80% {
     opacity: 0;
   }
   100% {
@@ -242,13 +256,16 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
+  20% {
     opacity: 0;
   }
-  50% {
+  40% {
     opacity: 1;
   }
-  75% {
+  60% {
+    opacity: 0;
+  }
+  80% {
     opacity: 0;
   }
   100% {
@@ -260,14 +277,17 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
+  20% {
     opacity: 0;
   }
-  50% {
+  40% {
     opacity: 0;
   }
-  75% {
+  60% {
     opacity: 1;
+  }
+  80% {
+    opacity: 0;
   }
   100% {
     opacity: 0;
@@ -278,13 +298,37 @@ body {
   0% {
     opacity: 0;
   }
-  25% {
+  20% {
     opacity: 0;
   }
-  50% {
+  40% {
     opacity: 0;
   }
-  75% {
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade6 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
     opacity: 0;
   }
   100% {
