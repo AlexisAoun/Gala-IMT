@@ -31,7 +31,11 @@
 }
 
 .show {
-  width: 26%;
+  width: 25%;
+}
+
+.cocktails {
+  width: 25%;
 }
 
 .carts img {
@@ -55,11 +59,16 @@
   }
 
   .menu {
-    width: 99%;
+    width: 100%;
     margin-bottom: 5%;
   }
   
   .show {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .cocktails {
     width: 100%;
     margin-bottom: 5%;
   }
