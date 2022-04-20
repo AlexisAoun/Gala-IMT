@@ -77,8 +77,8 @@
 
 .details {
   position: relative;
-  display: none; 
   width: 100%;
+  display: flex;
   justify-content: space-evenly;
   background-color:whitesmoke; 
   border: solid 3px;

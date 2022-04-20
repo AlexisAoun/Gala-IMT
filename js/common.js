@@ -60,40 +60,6 @@ function resetImage(element) {
   }
 }
 
-//for the love of god i should refactor this
-//why do i always begin 48hrs before deadlines
-function showDetails(element) {
-  let details = null;
-  if (element.id == "paris"){
-    details = document.getElementById("parisDetails");
-    if (detailsToggleDouai) {
-      details.style.display = "none";
-      detailsToggleDouai = false;
-    } else {
-      detailsToggleDouai = true;
-      details.style.display = "flex";
-    }
-  } else if (element.id == "alencon"){
-    details = document.getElementById("alenconDetails");
-    if (detailsToggleAlencon) {
-      details.style.display = "none";
-      detailsToggleAlencon = false;
-    } else {
-      detailsToggleAlencon = true;
-      details.style.display = "flex";
-    }
-  } else if (element.id == "valenciennes"){
-    details = document.getElementById("valenciennesDetails");
-    if (detailsToggleValenciennes) {
-      details.style.display = "none";
-      detailsToggleValenciennes = false;
-    } else {
-      detailsToggleValenciennes = true;
-      details.style.display = "flex";
-    }
-  }
-}
-
 function closeBtnPopup(){
 	container = document.getElementById("popup-container");
 	body = document.body;
