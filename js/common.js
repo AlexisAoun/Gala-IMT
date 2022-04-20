@@ -1,6 +1,6 @@
 // code for the home page
 
-let mediaQuery = window.matchMedia("(max-width: 850px)")
+let mediaQuery = window.matchMedia("(max-width: 850px)");
 let mobile = false;
 let detailsToggleDouai = false;
 let detailsToggleLille = false;
@@ -18,7 +18,7 @@ function checkIfMobile(mediaQuery) {
 //change the carte image on mouse hover
 function changeImage(element) {
   if (!mobile) {
-    carte = (element.parentNode).parentNode;
+    carte = element.parentNode.parentNode;
     carte.style.transform = "scale(1.1)";
   }
   if (element.id == "programme") {
@@ -31,16 +31,16 @@ function changeImage(element) {
     element.src = "assets/cartes_accueil/sponsors_carte_bleue.png";
   } else if (element.id == "don") {
     element.src = "assets/cartes_accueil/notreequipe_carte_bleue.png";
-  // } else if (element.id == "soiree") {
-  //   element.src = "../assets/billetterie/billet_soiree_blanc.png";
-  // } else if (element.id == "vip") {
-  //   element.src = "../assets/billetterie/billet_VIP_blanc.png";
+    // } else if (element.id == "soiree") {
+    //   element.src = "../assets/billetterie/billet_soiree_blanc.png";
+    // } else if (element.id == "vip") {
+    //   element.src = "../assets/billetterie/billet_VIP_blanc.png";
   }
 }
 
 function resetImage(element) {
   if (!mobile) {
-    carte = (element.parentNode).parentNode;
+    carte = element.parentNode.parentNode;
     carte.style.transform = "scale(1)";
   }
   if (element.id == "programme") {
@@ -53,19 +53,19 @@ function resetImage(element) {
     element.src = "assets/cartes_accueil/sponsors_carte.png";
   } else if (element.id == "don") {
     element.src = "assets/cartes_accueil/notreequipe_carte.png";
-  // } else if (element.id == "soiree") {
-  //   element.src = "../assets/billetterie/billet_soiree.png";
-  // } else if (element.id == "vip") {
-  //   element.src = "../assets/billetterie/billet_VIP.png";
+    // } else if (element.id == "soiree") {
+    //   element.src = "../assets/billetterie/billet_soiree.png";
+    // } else if (element.id == "vip") {
+    //   element.src = "../assets/billetterie/billet_VIP.png";
   }
 }
 
-function closeBtnPopup(){
-	container = document.getElementById("popup-container");
-	body = document.body;
-	container.style.display = "none";
-	body.style.overflow = "visible";
+function closeBtnPopup() {
+  container = document.getElementById("popup-container");
+  body = document.body;
+  container.style.display = "none";
+  body.style.overflow = "visible";
 }
 
-checkIfMobile(mediaQuery) // Call listener function at run time
-mediaQuery.addListener(checkIfMobile) // Attach listener function on state changes 
+checkIfMobile(mediaQuery); // Call listener function at run time
+mediaQuery.addListener(checkIfMobile); // Attach listener function on state changes

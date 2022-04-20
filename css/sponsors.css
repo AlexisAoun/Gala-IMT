@@ -68,8 +68,8 @@
   margin-top: 2%;
 }
 
-@media screen and (max-width: 850px){
-  .title{
+@media screen and (max-width: 850px) {
+  .title {
     width: 80%;
     margin-left: 10%;
   }
@@ -99,5 +99,3 @@
     padding: 3%;
   }
 }
-
-

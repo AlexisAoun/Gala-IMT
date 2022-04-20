@@ -1,8 +1,8 @@
 .mainContainer {
   height: auto;
-  background: url("../assets/fond_site/image_fond_2_programme.png") no-repeat  center;
+  background: url("../assets/fond_site/image_fond_2_programme.png") no-repeat
+    center;
   background-size: cover;
-
 }
 
 .title {
@@ -44,8 +44,7 @@
 }
 
 @media screen and (max-width: 850px) {
-
-  .mainContainer{
+  .mainContainer {
     height: auto;
   }
 
@@ -62,7 +61,7 @@
     width: 100%;
     margin-bottom: 5%;
   }
-  
+
   .show {
     width: 100%;
     margin-bottom: 5%;
@@ -76,5 +75,4 @@
   .carts img {
     aspect-ratio: auto;
   }
-
 }
